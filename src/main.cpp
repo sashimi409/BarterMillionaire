@@ -35,6 +35,7 @@ int main() {
 	while (Running)
 	{
 		system("CLS"); //Clear screen
+		GeneralStore.Display();
 		//Display text to user
 		//Get input from user
 

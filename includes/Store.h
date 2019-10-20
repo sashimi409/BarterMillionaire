@@ -9,5 +9,6 @@ private:
 public:
 	Store();
 	~Store();
+	void Display();
 	
 };
