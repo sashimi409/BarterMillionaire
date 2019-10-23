@@ -1,29 +1,21 @@
 #include <string>
-#include "../includes/Good.h"
-
-class Store
-{
-private:
-	std::string name = "";
-	void Refresh();
-	Good Goods[5];
+#include "..\includes\Good.h"
+#include "..\includes\Store.h"
 
 
-public:
-	Store();
-	~Store();
-	void Display();
-	
-
-
-};
 
 
 Store::Store()
 {
-	//choose 5 random items to sell
+	//populate shop with all items
+	
+	for (int i = 0; i < 8; i++)
+	{
+		Good* temp = new Good;
+		Store::Goods[i] = temp;
+	}
 	//choose a name for the shop
-	Goods[5];
+	
 
 }
 
@@ -37,9 +29,16 @@ Store::~Store()
 
 void Store::Display()
 {
-
+	//will only display the first 5 items in the array for sale. 
 
 }
+
+bool Store::buy(Good)
+{
+	//returns true if you were able to buy the item
+	return false;
+}
+
 
 
 void Store::Refresh()
