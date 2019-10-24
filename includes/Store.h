@@ -2,6 +2,7 @@
 #define STORE_H
 
 #include <string>
+#include <memory>
 #include "../includes/Good.h"
 
 class Store
@@ -9,7 +10,7 @@ class Store
 private:
 	std::string name;
 	void Refresh();
-	Good* Goods[8];
+	std::unique_ptr<Good> Goods[8];
 	//Functions
 public:
 	Store();

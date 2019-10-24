@@ -1,4 +1,5 @@
 #include <string>
+#include <memory>
 #include "..\includes\Good.h"
 #include "..\includes\Store.h"
 
@@ -11,8 +12,8 @@ Store::Store()
 	
 	for (int i = 0; i < 8; i++)
 	{
-		Good* temp = new Good;
-		Store::Goods[i] = temp;
+
+		Store::Goods[i] = std::make_unique<Good>();
 	}
 	//choose a name for the shop
 	
