@@ -1,4 +1,2 @@
-class Parser {
+#include "..\includes\Parser.h"
 
-
-};
