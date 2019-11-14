@@ -1,5 +1,7 @@
 #include <iostream>
 #include "../includes/Store.h"
+#include "../includes/Setup.h"
+#include "../includes/GameState.h"
 
 void quit(bool &Running)
 {
@@ -19,23 +21,19 @@ int main() {
 	
 	bool Running = true;
 	
+	GameState Game;
+	SetupGame(Game); //Sets up game and Starts The Parser
+
 
 	//introduction text
 
 	std::cout <<"Welcome" << std::endl << std::endl;
 
 
-	system("Pause"); 
-
-	Store GeneralStore;
-
-
-
-
 	while (Running)
 	{
 		system("CLS"); //Clear screen
-		GeneralStore.Display();
+		
 		//Display text to user
 		//Get input from user
 

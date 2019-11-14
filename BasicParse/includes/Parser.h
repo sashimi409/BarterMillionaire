@@ -1,3 +1,6 @@
+#ifndef PARSER_H
+#define PARSER_H
+
 #include <unordered_map>
 #include <string>
 
@@ -12,3 +15,8 @@ class Parser {
 
 
 };
+
+
+#endif // !PARSER_H
+
+
