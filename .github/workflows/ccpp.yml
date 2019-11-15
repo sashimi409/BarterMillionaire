@@ -10,8 +10,8 @@ jobs:
     steps:
     - uses: actions/checkout@v1
     - name: Setup
-      run: mkdir Build
+      run: mkdir Build && cd Build
     - name: CMake
-      run: cmake .
+      run: cmake ..
     - name: Build
-      run: cmake --build Build
+      run: cmake --build .
