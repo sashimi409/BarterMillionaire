@@ -22,7 +22,8 @@ int main() {
 	bool Running = true;
 	
 	GameState Game;
-	SetupGame(Game); //Sets up game and Starts The Parser
+	Parser TextParser;
+	SetupGame(Game, TextParser); //Sets up game and Starts The Parser
 
 
 	//introduction text

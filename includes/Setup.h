@@ -4,7 +4,7 @@
 #include "../includes/GameState.h"
 #include "../BasicParse/includes/Parser.h"
 
-void SetupGame(GameState&);
+void SetupGame(GameState&, Parser&);
 
 
 

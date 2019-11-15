@@ -2,11 +2,9 @@
 #include "../includes/Setup.h"
 #include "../BasicParse/includes/Parser.h"
 
-void SetupGame(GameState& Current)
+void SetupGame(GameState& Current, Parser& TextParser)
 {
-	//Creates a parser to interact with
-	Parser TextParser;
-
+	
 
 	//Set initial values for the game
 
