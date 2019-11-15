@@ -1,2 +1,2 @@
-#include "..\includes\Parser.h"
+#include "../includes/Parser.h"
 

@@ -1,6 +1,6 @@
-#include "..\includes\GameState.h"
-#include "..\includes\Setup.h"
-#include "..\BasicParse\includes\Parser.h"
+#include "../includes/GameState.h"
+#include "../includes/Setup.h"
+#include "../BasicParse/includes/Parser.h"
 
 void SetupGame(GameState& Current)
 {

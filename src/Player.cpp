@@ -1,8 +1,8 @@
 #include <string>
 #include <vector>
-#include "..\includes\Good.h"
-#include "..\includes\Player.h"
-#include "..\includes\Item.h"
+#include "../includes/Good.h"
+#include "../includes/Player.h"
+#include "../includes/Item.h"
 
 
 

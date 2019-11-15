@@ -1,7 +1,7 @@
 #include <string>
 #include <memory>
-#include "..\includes\Good.h"
-#include "..\includes\Store.h"
+#include "../includes/Good.h"
+#include "../includes/Store.h"
 
 
 

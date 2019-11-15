@@ -1,4 +1,4 @@
-#include "..\includes\Word.h"
+#include "../includes/Word.h"
 
 class Verb : public Word
 {

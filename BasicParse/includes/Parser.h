@@ -4,8 +4,8 @@
 #include <unordered_map>
 #include <string>
 
-#include "..\src\Noun.h"
-#include "..\src\verb.h"
+#include "../src/Noun.h"
+#include "../src/verb.h"
 
 class Parser {
 
