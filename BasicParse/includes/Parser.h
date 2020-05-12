@@ -5,7 +5,7 @@
 #include <string>
 
 #include "../src/Noun.h"
-#include "../src/verb.h"
+#include "../src/Verb.h"
 
 class Parser {
 
