@@ -9,7 +9,7 @@ private:
 	Store GeneralStore;
 
 public:
-
+	GameState();
 };
 
 
