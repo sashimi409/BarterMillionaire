@@ -1,5 +1,5 @@
 #include <vector>
-#include "..\includes\Object.h"
+#include "../includes/Object.h"
 #include "Word.h"
 
 void Object::Register()
