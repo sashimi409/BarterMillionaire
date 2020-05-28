@@ -3,6 +3,7 @@
 
 #include <unordered_map>
 #include <string>
+#include <vector>
 
 #include "../src/Noun.h"
 #include "../src/Verb.h"
