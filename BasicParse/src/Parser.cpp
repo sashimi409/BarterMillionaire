@@ -1,5 +1,7 @@
 #include <string>
 #include <iostream>
+#include <vector>
+
 #include "../includes/Parser.h"
 #include "Word.h"
 #include "Noun.h"
