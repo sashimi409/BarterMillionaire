@@ -5,9 +5,10 @@
 #include <vector>
 #include "../includes/Good.h"
 #include "../includes/Item.h"
+#include "../BasicParse/includes/Object.h"
 
 
-class Player
+class Player : public Object
 {
 public:
 	bool sell(Item);
@@ -16,6 +17,8 @@ public:
 private:
 	float Wallet; //Will be the amount of currency you have
 	std::vector<Good> Inventory;
+	void Register();
+	void HandleCommand(std::vector<Word> Command, std::vector<Word> arguments);
 
 };
 

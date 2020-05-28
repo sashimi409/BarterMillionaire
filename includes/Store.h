@@ -5,6 +5,7 @@
 #include <memory>
 #include "../includes/Good.h"
 
+
 class Store
 {
 private:
@@ -17,6 +18,7 @@ public:
 	~Store();
 	void Display();
 	bool buy(Good);
+	
 	
 };
 

@@ -11,3 +11,13 @@ bool Player::sell(Item)
 	//return true if you wer able to sell the item
 	return false;
 }
+
+void Player::Register()
+{
+
+}
+
+void Player::HandleCommand(std::vector<Word> Command, std::vector<Word> arguments)
+{
+
+}
