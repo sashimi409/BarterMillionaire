@@ -1,9 +1,9 @@
 #include <iostream>
 #include <string>
 
-#include "../includes/Store.h"
-#include "../includes/Setup.h"
-#include "../includes/GameState.h"
+#include "../../includes/Store.h"
+#include "../../includes/Setup.h"
+#include "../../includes/GameState.h"
 
 void quit(bool &Running)
 {
@@ -29,11 +29,13 @@ int main() {
 
 
 	//introduction text
+    
+    system("CLS");
 
 	std::cout <<"Welcome To Barter Millionaire" << std::endl << std::endl;
 	std::cout << "Press any key to continue" << std::endl << std::endl;
-	std::string jojo;
-	std::cin >> jojo;
+    std::cin.get();
+
 
 
 

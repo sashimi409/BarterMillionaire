@@ -37,4 +37,10 @@
 out/
 
 #build directory
-build/
+build
+
+
+#CMake Files
+CMakeFiles
+Makefile
+*.cmake
