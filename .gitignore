@@ -35,3 +35,6 @@
 #Folders for visual studio
 .vs/
 out/
+
+#build directory
+build/
