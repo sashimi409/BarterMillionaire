@@ -18,7 +18,7 @@ private:
 	float Wallet; //Will be the amount of currency you have
 	std::vector<Good> Inventory;
 	void Register();
-	void HandleCommand(std::vector<Word> Command, std::vector<Word> arguments);
+	void HandleCommand(std::vector<std::string> Command, std::vector<std::string> arguments);
 
 };
 

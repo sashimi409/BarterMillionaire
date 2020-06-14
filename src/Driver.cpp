@@ -28,6 +28,8 @@ int main()
     {
         Interface.ClearScreen();
 
+        Interface.GetInput(Input);
+        TextParser.Parse(Input);
 
         Running = false;
     }

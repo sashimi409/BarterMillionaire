@@ -8,7 +8,7 @@ void Object::Register()
 
 };
 
-void Object::HandleCommand(std::vector<Word> Command, std::vector<Word> arguments)
+void Object::HandleCommand(std::vector<std::string> Command, std::vector<std::string> arguments)
 {
 
 }

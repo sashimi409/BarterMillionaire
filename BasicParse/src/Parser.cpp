@@ -4,7 +4,6 @@
 
 #include "../includes/Parser.h"
 #include "Word.h"
-#include "Noun.h"
 #include "Verb.h"
 
 Parser::Parser()

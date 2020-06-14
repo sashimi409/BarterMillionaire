@@ -17,7 +17,7 @@ void Player::Register()
 
 }
 
-void Player::HandleCommand(std::vector<Word> Command, std::vector<Word> arguments)
+void Player::HandleCommand(std::vector<std::string> Command, std::vector<std::string> arguments)
 {
 
 }
