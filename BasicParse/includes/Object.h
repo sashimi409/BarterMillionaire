@@ -8,9 +8,8 @@
 class Object {
 
 public: 
-	void Register();
-	void HandleCommand(std::vector<std::string> Command, std::vector<std::string> arguments);
-
+	void Register(std::string, std::vector<std::string>);
+	void HandleCommand(std::vector<std::string> Command, std::vector<std::string> arguments); 
 };
 
 #endif // !OBJECT_H
