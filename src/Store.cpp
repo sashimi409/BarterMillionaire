@@ -48,4 +48,7 @@ void Store::Refresh()
 
 }
 
+void Store::Random()
+{
 
+}

@@ -18,6 +18,7 @@ public:
 	~Store();
 	void Display();
 	bool buy(Good);
+    void Random();
 	
 	
 };
