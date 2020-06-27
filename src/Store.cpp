@@ -16,6 +16,7 @@ Store::Store()
 		Store::Goods[i] = std::make_unique<Good>();
 	}
 	//choose a name for the shop
+    name = "James";
 	
 
 }
@@ -31,6 +32,9 @@ Store::~Store()
 void Store::Display(DisplayInterface& Interface)
 {
 	//will only display the first 5 items in the array for sale. 
+    std::string Intro = "Welcome to " + name + "'s Shop";
+    Interface.DisplayText(Intro);
+
 
 }
 

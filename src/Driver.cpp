@@ -14,9 +14,9 @@ int main()
     bool Running = true;
 
     DisplayInterface Interface;
-    GameState Game;
+    GameState Game(Interface);
     Parser TextParser;
-    SetupGame(Game, TextParser);
+    SetupGame( Game, TextParser);
     std::string Input;
 
     Interface.DisplayText("Welcome to Barter Millionaire");
@@ -29,7 +29,7 @@ int main()
         Interface.ClearScreen();
 
 
-        Game.GetCurrent()->Display(Interface);
+        Game.NewDay();
         Interface.GetInput(Input);
         TextParser.Parse(Input);
 
