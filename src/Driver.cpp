@@ -28,6 +28,8 @@ int main()
     {
         Interface.ClearScreen();
 
+
+        Game.GetCurrent()->Display(Interface);
         Interface.GetInput(Input);
         TextParser.Parse(Input);
 

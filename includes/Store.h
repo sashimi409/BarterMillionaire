@@ -4,7 +4,7 @@
 #include <string>
 #include <memory>
 #include "../includes/Good.h"
-
+#include "DisplayInterface.h"
 
 class Store
 {
@@ -16,7 +16,7 @@ private:
 public:
 	Store();
 	~Store();
-	void Display();
+    void Display(DisplayInterface&);
 	bool buy(Good);
     void Random();
 	

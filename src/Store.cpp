@@ -28,7 +28,7 @@ Store::~Store()
 
 
 
-void Store::Display()
+void Store::Display(DisplayInterface& Interface)
 {
 	//will only display the first 5 items in the array for sale. 
 
