@@ -1,7 +1,8 @@
 #include "../includes/GameState.h"
 #include "../includes/Store.h"
+#include <cstdlib>
 #include <memory>
-
+#include <math.h>
 
 GameState::GameState(DisplayInterface theInterface, int NumStores)
 {
@@ -10,7 +11,7 @@ GameState::GameState(DisplayInterface theInterface, int NumStores)
 
     for(int i = 0; i < NumStores ; i++)
     {
-        Stores[i] = std::make_unique<Store>();
+        Stores.push_back(std::make_unique<Store>());
     }
 }
 
@@ -18,7 +19,7 @@ void GameState::NewDay()
 {
     //choose new store to be displayed
     
-    CurrentStore = 0; 
+    CurrentStore = rand() % Stores.size();
     Stores[CurrentStore]->Display(Interface);
 }
 

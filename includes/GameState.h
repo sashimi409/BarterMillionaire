@@ -10,7 +10,7 @@
 class GameState
 {
 private:
-    std::unique_ptr<Store> Stores[5];
+    std::vector<std::unique_ptr<Store>> Stores;
     Player User;
     int CurrentStore;
     DisplayInterface Interface;
